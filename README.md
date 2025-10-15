@@ -46,15 +46,16 @@ Then open the local URL shown in the terminal.
 
 ### Features Implemented
 
-**Image Upload:** Supports JPG, PNG, and BMP formats.
-**Edge Detection Algorithms:**
-**Sobel** – adjustable kernel size and gradient direction (X, Y, or Both)
-**Laplacian** – adjustable kernel size
-**Canny** – adjustable thresholds, Gaussian kernel size, and sigma
-**Parameter Adjustment UI:** Uses sliders, dropdowns, and radio buttons for easy tuning.
-**Real-time Updates:** Output refreshes instantly when parameters change.
-**Side-by-side Display:** Original and processed images are shown side by side.
-**Clean & Responsive UI:** Designed with Streamlit for an intuitive user experience.
+- **Image Upload:** Supports JPG, PNG, and BMP formats.
+- **Edge Detection Algorithms:**
+  - **Sobel** – adjustable kernel size and gradient direction (X, Y, or Both)
+  - **Laplacian** – adjustable kernel size
+  - **Canny** – adjustable thresholds, Gaussian kernel size, and sigma
+- **Parameter Adjustment UI:** Uses sliders, dropdowns, and radio buttons for easy tuning.
+- **Real-time Updates:** Output refreshes instantly when parameters change.
+- **Side-by-side Display:** Original and processed images are shown side by side.
+- **Clean & Responsive UI:** Designed with Streamlit for an intuitive user experience.
+
 
 ## Screenshots
 
@@ -66,7 +67,7 @@ Each image shows the original input (left) and the edge-detected output (right) 
 ![Sobel Result](Outputs/Sobel.png)
 ![Sobel Result](Outputs/Sobel(2).png)
 ![Sobel Result](Outputs/Sobel(3).png)
-![Sobel Result](Outputs/"Sobel_y_direction".png)
+![Sobel Result](Outputs/Sobel_y_direction.png)
 
 ### Laplacian Edge Detection
 ![Laplacian Result](Outputs/Laplacian.png)
@@ -77,12 +78,13 @@ Each image shows the original input (left) and the edge-detected output (right) 
 ![Canny Result](Outputs/Canny(2).png)
 ![Canny Result](Outputs/Canny(3).png)
 
+
 ### Author
 
-Name: Yashfa Najam
-Course: Computer Vision
-Project: Edge Detection Algorithms Visualization
-GitHub Repo: Interactive Edge Detection UI
+- **Name:** Yashfa Najam  
+- **Course:** Computer Vision  
+- **Project:** Edge Detection Algorithms Visualization  
+- **GitHub Repo:** [Interactive Edge Detection UI](https://github.com/yashfa157/Interactive-Edge-Detection-UI)
 
 ### License
 
