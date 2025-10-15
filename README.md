@@ -46,9 +46,9 @@ Then open the local URL shown in the terminal.
 
 ### Features Implemented
 
-Image Upload: Supports JPG, PNG, and BMP formats.
-Edge Detection Algorithms:
-Sobel – adjustable kernel size and gradient direction (X, Y, or Both)
+# Image Upload: Supports JPG, PNG, and BMP formats.
+# Edge Detection Algorithms:
+# Sobel – adjustable kernel size and gradient direction (X, Y, or Both)
 Laplacian – adjustable kernel size
 Canny – adjustable thresholds, Gaussian kernel size, and sigma
 Parameter Adjustment UI: Uses sliders, dropdowns, and radio buttons for easy tuning.
@@ -66,7 +66,7 @@ Each image shows the original input (left) and the edge-detected output (right) 
 ![Sobel Result](Outputs/Sobel.png)
 ![Sobel Result](Outputs/Sobel(2).png)
 ![Sobel Result](Outputs/Sobel(3).png)
-![Sobel Result](Outputs/"Sobel y direction".png)
+![Sobel Result](Outputs/"Sobel_y_direction".png)
 
 ### Laplacian Edge Detection
 ![Laplacian Result](Outputs/Laplacian.png)
