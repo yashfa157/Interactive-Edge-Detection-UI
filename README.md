@@ -7,7 +7,12 @@ Users can upload an image, select an algorithm (Sobel, Laplacian, or Canny), adj
 
 ## Project Description
 
-This project provides a hands-on visual understanding of how edge detection algorithms work and how their parameters affect the results. 
+This project is an interactive web application built using Python, OpenCV, and Streamlit that demonstrates how different edge detection algorithms work.
+Users can upload any image, select an algorithm, and adjust parameters to see how edges are detected in real time.
+The original and processed images are shown side by side for easy comparison and better understanding.
+The **Sobel operator** detects edges by calculating image gradients in horizontal and vertical directions.
+The **Laplacian operator** highlights regions of rapid intensity change using second-order derivatives.
+The **Canny edge detector** is more advanced and uses Gaussian smoothing and thresholding for cleaner and more accurate edges.
 
 ---
 
