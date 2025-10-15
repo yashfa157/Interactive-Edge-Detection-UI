@@ -5,41 +5,46 @@ Users can upload an image, select an algorithm (Sobel, Laplacian, or Canny), adj
 
 ---
 
-## 📘 Project Description
+## Project Description
 
 This project provides a hands-on visual understanding of how edge detection algorithms work and how their parameters affect the results.  
 It is designed for educational and experimental use in computer vision courses.
 
 ---
 
-## ⚙️ Setup and Installation
+## Setup and Installation
 
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/yashfa157/Interactive-Edge-Detection-UI.git
 cd Interactive-Edge-Detection-UI
+```
 
-2. Create and activate a virtual environment
+### 2. Create and activate a virtual environment
 
-Windows:
+## Windows:
 
+```bash
 python -m venv venv
 venv\Scripts\activate
-
-Mac/Linux:
-
+```
+## Mac/Linux:
+```bash
 python3 -m venv venv
 source venv/bin/activate
-
-3. Install required dependencies
+```
+### 3. Install required dependencies
+```bash
 pip install -r requirements.txt
-
+```
 
 Once dependencies are installed, start the Streamlit app with:
+```bash
 streamlit run edge_detection_ui.py
+```
 Then open the local URL shown in the terminal.
 
-Features Implemented
+### Features Implemented
 
 Image Upload: Supports JPG, PNG, and BMP formats.
 Edge Detection Algorithms:
@@ -72,13 +77,13 @@ Each image shows the original input (left) and the edge-detected output (right) 
 ![Canny Result](Outputs/Canny(2).png)
 ![Canny Result](Outputs/Canny(3).png)
 
-Author
+### Author
 
 Name: Yashfa Najam
 Course: Computer Vision
 Project: Edge Detection Algorithms Visualization
 GitHub Repo: Interactive Edge Detection UI
 
-License
+### License
 
 This project is developed for academic purposes and is free to use for learning and educational demonstrations.
