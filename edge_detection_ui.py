@@ -1,7 +1,3 @@
-# edge_detection_app.py
-# Streamlit app for interactive edge detection experiments
-# Requirements: streamlit, opencv-python, pillow, numpy
-
 import streamlit as st
 import numpy as np
 import cv2
@@ -141,5 +137,3 @@ with right_col:
 # Footer
 st.markdown("---")
 st.write("Tips: Try increasing Canny thresholds to reduce edges. Use Sobel X or Y to see directional gradients. Laplacian highlights second order changes.")
-
-# End of file
