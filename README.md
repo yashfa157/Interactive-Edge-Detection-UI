@@ -7,8 +7,7 @@ Users can upload an image, select an algorithm (Sobel, Laplacian, or Canny), adj
 
 ## Project Description
 
-This project provides a hands-on visual understanding of how edge detection algorithms work and how their parameters affect the results.  
-It is designed for educational and experimental use in computer vision courses.
+This project provides a hands-on visual understanding of how edge detection algorithms work and how their parameters affect the results. 
 
 ---
 
@@ -85,7 +84,3 @@ Each image shows the original input (left) and the edge-detected output (right) 
 - **Course:** Computer Vision  
 - **Project:** Edge Detection Algorithms Visualization  
 - **GitHub Repo:** [Interactive Edge Detection UI](https://github.com/yashfa157/Interactive-Edge-Detection-UI)
-
-### License
-
-This project is developed for academic purposes and is free to use for learning and educational demonstrations.
